@@ -13,7 +13,7 @@ module.exports = {
     library: "react-flexcanvas",
     libraryTarget: "commonjs2",
     filename: "[name].js",
-    sourceMapFilename: "[name].map.js",
+    //sourceMapFilename: "[name].map.js", //gives an error on build
   },
   devtool: "source-map",
   module: {
